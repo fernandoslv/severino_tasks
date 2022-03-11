@@ -56,18 +56,17 @@ function App() {
                         />
                       </FormGroup>
                     </Col>
-                    <Col md={4}>
+                    <Col md={6}>
                       <Label htmlFor='data'>
                         Data
                       </Label>
                       <Input
                         value={inputData}
-                        onChange={e => setInputData(e.target.value)}
-                        placeholder="   /   /   "
-                        type="text"
+                        onChange={e => setInputData(e.target.value)}                        
+                        type="date"
                       />
                     </Col>
-                    <hr></hr>
+                    <hr/>
                   </Row>
                   <Row>
                     <Col md={12}>
